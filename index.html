@@ -2,22 +2,35 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>村上中央自動車学校　学科問題 アプリ一覧</title>
+<title>学科テスト アプリ一覧</title>
 <style>
 body{
   font-family: "メイリオ", sans-serif;
   background:#eef2f5;
+  margin:0;
 }
 .container{
-  max-width:800px;
+  max-width:900px;
   margin:40px auto;
   background:#fff;
   padding:30px;
   border:2px solid #003366;
 }
-h1{
+.header{
   text-align:center;
+  margin-bottom:30px;
+}
+.header img{
+  max-width:220px;
+  margin-bottom:15px;
+}
+.header h1{
+  margin:0;
   color:#003366;
+}
+.header p{
+  margin-top:8px;
+  color:#555;
 }
 ul{
   list-style:none;
@@ -28,20 +41,37 @@ li{
 }
 a{
   display:block;
-  padding:15px;
+  padding:18px;
   background:#003366;
   color:#fff;
   text-decoration:none;
   border-radius:8px;
+  font-size:18px;
 }
 a:hover{
   background:#0055aa;
 }
+.footer{
+  text-align:center;
+  margin-top:40px;
+  color:#666;
+  font-size:14px;
+}
 </style>
 </head>
 <body>
+
 <div class="container">
-  <h1>学科テスト アプリ一覧</h1>
+
+  <div class="header">
+    <!-- ロゴ画像（無い場合はこの行を削除してOK） -->
+    <img src="logo.png" alt="教習所ロゴ">
+
+    <!-- 教習所名 -->
+    <h1>村上中央自動車学校</h1>
+
+    <p>学科テスト・模擬試験 アプリ一覧</p>
+  </div>
 
   <ul>
     <li>
@@ -56,9 +86,15 @@ a:hover{
     </li>
   </ul>
 
+  <div class="footer">
+    © 村上中央自動車学校
+  </div>
+
 </div>
+
 </body>
 </html>
+
 
 
 
